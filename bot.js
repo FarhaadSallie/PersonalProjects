@@ -30,7 +30,7 @@ client.on('message', (msg) => {
     }
 })
 client.on('message', (msg) => {
-    if (msg.content === "smart"||"5head"||"big brain"||"awesome"){
+    if (msg.content == "smart"||"5head"||"big brain"||"awesome"){
         msg.react('❤️')
     }
 })
